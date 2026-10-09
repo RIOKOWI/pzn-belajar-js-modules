@@ -112,3 +112,16 @@ import {namaFunction, namaVariable, NamaClass} from “lokasi-module.js”
 - contoh di file :
 `scripts/class.js`
 `class.html`
+
+
+# Export Multiple
+## Export Multiple
+- Sebelumnya kita selalu menggunakan kata kunci export diawal variable, function atau class
+- Sebenarnya kita bisa menggunakan export sekaligus beberapa data sekaligus, caranya cukup gunakan perintah :
+```js
+export { variable, function, class, danLainLain }
+```
+
+- contoh di file :
+`scripts/export-multiple.js`
+`export-multiple.html`
