@@ -58,9 +58,20 @@
 - Hal ini sebenarnya tidak ada kewajiban, hanya saja agar mempermudah ketika tahapan development, kita bisa dengan mudah membedakan mana file JavaScript biasa, mana file JavaScript module hanya dengan extension file nya saja
 - Pada kelas ini, kita akan tetap menggunakan file .js ketika membuat module, agar tidak membingungkan untuk pemula
 
+```bash
+modules.html:52 Uncaught ReferenceError: sayHello is not defined
+    at modules.html:52:5
+```
+
+## Kenapa Error?
+- Secara default, saat kita menggunakan fitur JavaScript Module, semua kode (function, variable, class dan lain-lain) tidak akan di ekspos keluar module tersebut
+- Jika kita ingin mengekspos kode tersebut, kita harus memberitahunya secara eksplisit
+
+
+
 - contoh di file :
-`scripts/library.js`
-`wo-modules.html`
+`scripts/say.js`
+`modules.html`
 
 
 
