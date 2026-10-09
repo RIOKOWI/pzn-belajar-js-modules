@@ -67,14 +67,16 @@ modules.html:52 Uncaught ReferenceError: sayHello is not defined
 - Secara default, saat kita menggunakan fitur JavaScript Module, semua kode (function, variable, class dan lain-lain) tidak akan di ekspos keluar module tersebut
 - Jika kita ingin mengekspos kode tersebut, kita harus memberitahunya secara eksplisit
 
+- contoh di file :
+`scripts/say.js`
+`modules.html`
+
+# Export
+## Export
+- export merupakan kata kunci yang digunakan untuk mengekspos kode dari sebuah module
+- export bisa ditambahkan diawal sebuah variable, function atau class
 
 
 - contoh di file :
 `scripts/say.js`
 `modules.html`
-
-
-
-
-
-

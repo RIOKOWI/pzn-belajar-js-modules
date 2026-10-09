@@ -1,8 +1,8 @@
 // membuat library
-function sayHello(name) {
+export function sayHello(name) { // harus di export agar bisa di akses
     console.info(`Hello ${name}`);
-};
+}
 
-function sayBye(name) {
+export function sayBye(name) { // harus di export agar bisa di akses
     console.info(`Goodbye ${name}`);
 }
