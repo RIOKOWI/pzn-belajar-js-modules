@@ -98,4 +98,17 @@ import {namaFunction, namaVariable, NamaClass} from “lokasi-module.js”
 
 
 - contoh di file :
-`modules.html`
+`scripts/variable.js`
+`scripts/variable2.js`
+`variable.html`
+
+
+# Class di Module
+## Class di Module
+- Selain function dan juga variable, di module juga kita bisa menambahkan class
+- Secara default, class tersebut hanya bisa diakses dari dalam module nya saja, tidak bisa diluar module
+- Jika kita ingin mengekspos class yang kita buat, kita juga bisa menggunakan kata kunci export di awal deklarasi class nya
+
+- contoh di file :
+`scripts/class.js`
+`class.html`
