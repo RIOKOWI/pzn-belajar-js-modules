@@ -44,5 +44,26 @@
 - Namun jika kita menggunakan module, kita bisa secara selektif memilih bagian kode mana yang ingin kita ekspos keluar
 - Secara default kode yang kita buat menggunakan JavaScript Module tidak bisa digunakan dari luar file, kecuali kita memintanya untuk mengekspos keluar
 
+- contoh di file :
+`scripts/library.js`
+`wo-modules.html`
+
+# Membuat Module
+## Membuat Module
+- Membuat module sangat sederhana, kita cukup membuat file JavaScript saja
+- Yang membedakan adalah, saat kita akan meload file JavaScript dari HTML, kita tidak menggunakan type javascript lagi, melainkan menggunakan type module
+
+## File .js dan .mjs
+- Karena File JavaScript Module sebenarnya sama dengan JavaScript, kadang developer membedakan nama file untuk JavaScript Module menggunakan .mjs
+- Hal ini sebenarnya tidak ada kewajiban, hanya saja agar mempermudah ketika tahapan development, kita bisa dengan mudah membedakan mana file JavaScript biasa, mana file JavaScript module hanya dengan extension file nya saja
+- Pada kelas ini, kita akan tetap menggunakan file .js ketika membuat module, agar tidak membingungkan untuk pemula
+
+- contoh di file :
+`scripts/library.js`
+`wo-modules.html`
+
+
+
+
 
 
