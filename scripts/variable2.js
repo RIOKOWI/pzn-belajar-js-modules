@@ -1,0 +1,1 @@
+name = "Jokowi"; // untuk contoh replace variable.js

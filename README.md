@@ -87,3 +87,15 @@ modules.html:52 Uncaught ReferenceError: sayHello is not defined
 import {namaFunction, namaVariable, NamaClass} from “lokasi-module.js”
 - Module hanya bisa digunakan di module lain, jadi pastikan ketika  membuat script, kita harus menggunakan type module
 - Saat menggunakan import, kita tidak perlu lagi menambahkan script module src satu per satu, karena sudah di handle oleh Browser secara otomatis ketika menggunakan module
+
+- contoh di file :
+`modules.html`
+
+# Variable di Module
+## Variable di Module
+- Salah satu hal yang membingungkan pada variable di JavaScript adalah ketika kita membuat variable di global scope, maka variable tersebut bisa diubah nilainya oleh file JavaScript lain
+- Saat kita menggunakan module, ketika kita buat variable, maka variable tersebut hanya berada pada module tersebut, tidak bisa digunakan di module lain
+
+
+- contoh di file :
+`modules.html`
