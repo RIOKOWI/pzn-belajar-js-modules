@@ -8,10 +8,10 @@
     <!-- perbedaan nya tambahkan type="module" untuk load module -->
 </head>
 <body>
-    
+    <script type="module">
+        import {sayHello, sayBye} from "./scripts/say.js" // cara import modules
+        sayHello("resbob");
+        sayBye("mo");
+    </script>
 </body>
-<script>
-    sayHello("resbob");
-    sayBye("mo");
-</script>
 </html>
