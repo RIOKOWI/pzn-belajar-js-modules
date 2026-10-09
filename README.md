@@ -32,3 +32,13 @@
 - Jika menggunakan JetBrains IDE, sudah terdapat fitur untuk membuka halaman web dalam local web server
 - Tidak perlu menginstall plugin tambahan
 
+- contoh di file :
+`index.html`
+
+# Tanpa Module
+## Tanpa Module
+- Sebelum kita membahas JavaScript Module, sekarang kita akan coba dulu tanpa menggunakan module
+- Saat kita membuat file JavaScript, lalu kita load file JavaScript tersebut di web, secara default semua kode JavaScript di file tersebut bisa diakses, baik itu variable, function atau class
+
+
+
