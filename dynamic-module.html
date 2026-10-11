@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="name">
+    <input type="button" id="sayButton" value="Say">
+    <script type="module">
+        document.getElementById("sayButton").onclick = function () { // membuat logic saat button di click
+            const name = document.getElementById("name").value; // ambil value dari user
+
+            import("./scripts/dynamic-module.mjs").then(function (module) { // import dan jadiin module object
+                module.alertHello(name); // tampilkan alert beserta nama value user
+            })
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="module">
+        import {Person, sayHello, sayBye, tambah} from "./scripts/aggregate-module.mjs"; // import semua modul gabungan file file lain
+
+        // implemen module
+        const orang = new Person("Mok");
+        orang.sayHello("Bob")
+
+        console.info(sayHello("Rio"));
+        console.info(sayBye("Achyar"));
+
+        console.info(tambah(1, 2));
+
+    </script>
+</body>
+</html>
