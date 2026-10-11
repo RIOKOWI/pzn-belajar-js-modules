@@ -173,6 +173,11 @@ export { variable as variableLain, function as functionLain, Class as ClassLain 
 import defaultAlias, {named1, named2} from “./module.js”;
 import {default as defaultAlias, named1, named2} from “./module.js”;
 
+## Rekomendasi
+- Bedakan antara default dan named, karena jika digabungkan kadang akan membingungkan ketika melakukan import
+- Sebisa mungkin selalu gunakan export named dibandingkan export default 
+
+
 - contoh di file :
 `scripts/exp-func.mjs`
 `scripts/exp-var.mjs`
@@ -181,3 +186,15 @@ import {default as defaultAlias, named1, named2} from “./module.js”;
 `import-default.html`
 `default-named.html`
 
+# Module Object
+## Module Object
+- Ketika sebuah module berisikan banyak sekali export data, maka melakukan import satu persatu akan terlihat berantakan
+- Rekomendasinya ketika kita ingin mengimport module yang sangat banyak export data nya, gunakan Module Object
+- Module Object sederhananya adalah object JavaScript yang berisi attribute hasil yang di export pada module
+- Cara membuat module object bisa kita lakukan misal seperti ini :
+import * as NamaModule from “./module.js”
+- Selanjutnya kita bisa gunakan NamaModule sebagai object untuk module tersebut
+
+- contoh di file :
+`scripts/module-object.mjs`
+`module-object.html`

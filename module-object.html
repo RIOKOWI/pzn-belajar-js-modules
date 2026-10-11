@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="module">
+        import * as Rio from "./scripts/module-object.mjs"; // * = import semua module di dalam file tersebut
+
+        // implemen semua module
+        console.info(Rio.namaDepan);
+        console.info(Rio.namaTengah);
+        console.info(Rio.namaBelakang);
+        console.info(Rio.hi("Bob"));
+        const sapa = new Rio.Say("Rio");
+        sapa.sapa("Roy");
+
+
+    </script>
+</body>
+</html>

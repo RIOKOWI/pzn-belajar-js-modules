@@ -6,4 +6,4 @@ const name = "Rio Achyar"; // default export
 export {content}; // named
 export default name; // default export
 
-// bisa di gabung seperti di atas
+// tidak di rekomendasikan named dan default di gabung
