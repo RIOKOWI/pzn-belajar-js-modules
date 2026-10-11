@@ -165,4 +165,19 @@ export { variable as variableLain, function as functionLain, Class as ClassLain 
 - import {default as AliasClass} from “./module-default.js”
 
 
+## Default dan Named Export
+- Dalam satu module, kita bisa menggabungkan export default dan export named
+- Yang tidak boleh adalah, dalam satu module, membuat lebih dari satu default
+- Cara import default dan named secara bersamaan bisa menggunakan perintah :
+
+import defaultAlias, {named1, named2} from “./module.js”;
+import {default as defaultAlias, named1, named2} from “./module.js”;
+
+- contoh di file :
+`scripts/exp-func.mjs`
+`scripts/exp-var.mjs`
+`scripts/exp-class.mjs`
+`scripts/default-named.mjs`
+`import-default.html`
+`default-named.html`
 
