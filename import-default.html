@@ -9,9 +9,12 @@
     <script type="module">
         import sayHello from './scripts/exp-func.mjs'; // kasih nama function
         import suNama from './scripts/exp-var.mjs'; // bisa ganti nama variable/alias
+        import Sapa from './scripts/exp-class.mjs'; // import deafult class dengan alias
 
-        console.info(sayHello("rio"));
-        console.info(suNama);
+        console.info(sayHello("rio")); // implemen  func alias
+        console.info(suNama); // implemen variable alias
+        const sapa = new Sapa("kdm"); // implemen class & func alias
+        sapa.hi("Resbob");
 
     </script>
 </body>
