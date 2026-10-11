@@ -138,6 +138,31 @@ export { variable, function, class, danLainLain }
 - Caranya menggunakan kata kunci as, lalu diikuti dengan nama alias :
 export { variable as variableLain, function as functionLain, Class as ClassLain }
 
-
 - contoh di file :
-`scripts/export-multiple.js`
+`scripts/alias.js`
+`alias.html`
+
+
+# Export Default
+## Export Default
+- Sampai saat ini, kita selalu melakukan export dengan nama, baik itu nama variable, function dan yang lainnya
+- Ada juga fitur yang bernama export default, ini adalah fitur yang digunakan untuk mempermudah untuk membuat default data di module, dan membantu JavaScript agar kompatibel dengan CommonJS dan AMD module system
+
+## Cara Export Default
+- export default namaFunction;
+- export default function(){ ... }
+- export default namaVariable;
+- export default namaVariable = value;
+- export default NamaClass;
+- export default class { ... }
+
+## Cara Import Default
+- import aliasFunction from “./module-default.js”
+- import {default as aliasVariable} from “./module-default.js”
+- import aliasVariable from “./module-default.js”
+- import {default as aliasVariable} from “./module-default.js”
+- import AliasClass from “./module-default.js”
+- import {default as AliasClass} from “./module-default.js”
+
+
+
